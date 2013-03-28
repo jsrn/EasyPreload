@@ -1,0 +1,7 @@
+Usage: ./EasyPreload.py -m [module] [options]
+
+For the full list of modules:
+./EasyPreload.py --list
+
+For the full help documentation:
+./EasyPreload.py --help

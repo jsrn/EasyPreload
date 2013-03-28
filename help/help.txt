@@ -1,0 +1,19 @@
+-- EasyPreload Help --
+
+- Options -
+
+--32bit          If you are trying to intercept calls from a 32 bit application
+                 on a 64 bit system, use this flag to compile the intercepting
+                 function as a 32 bit library.
+
+--persist 	 Without this flag, the changes to LD_PRELOAD and PATH last only
+                 so long as the child shell spawned by EasyPreload. Using this 
+		 flag will edit ~/.bashrc to ensure that the changes are kept 
+		 across login/terminal sessions.
+
+--stealth        "Stealth" is probably a grand term. This just means that the
+                 intercepting library is stored somewhere less obvious than the
+                 directory in which EasyPreload was executed. By default,
+		 the directory '...' is created and used in the working dir.
+
+--list-modules	 Spits out the list of available modules.
